@@ -27,10 +27,10 @@ public class RandomMovement : MonoBehaviour
     public float minDelay = 1f;
     public float maxDelay = 5f;
     private Vector2 targetPosition;
-    private float minX = -9f;
-    private float maxX = 9f;
-    private float minY = -5f;
-    private float maxY = 5f;
+    private float minX = -13f;
+    private float maxX = 13f;
+    private float minY = -13f;
+    private float maxY = 13f;
     private bool moving = false;
 
     private Coroutine infectionCoroutine;
@@ -223,7 +223,6 @@ public class RandomMovement : MonoBehaviour
     {
         float randomValue = Random.Range(0f, 1f);
 
-        // Change the chance of becoming sick to 10% (from idle)
         if (currentState == State.Idle)
         {
             if (randomValue < 0.4f) // 40% chance

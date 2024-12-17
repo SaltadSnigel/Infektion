@@ -196,9 +196,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  idleSpeed: 3
-  sickSpeed: 1.5
-  immuneSpeed: 2.5
+  idleSpeed: 1.8
+  sickSpeed: 1.4
+  immuneSpeed: 1.6
   IdleSprite: {fileID: 21300000, guid: 0c4130ec457d2044f8e6bbc63937f294, type: 3}
   SickSprite: {fileID: 21300000, guid: 10ce886544dced74a93d3a13529bf5ce, type: 3}
   ImmuneSprite: {fileID: 21300000, guid: 769c5f8733ccdf24fb77b886a303b3d0, type: 3}

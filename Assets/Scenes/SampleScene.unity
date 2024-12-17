@@ -198,7 +198,7 @@ Transform:
   m_GameObject: {fileID: 44591105}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.29, y: -4.45, z: -0.04758604}
+  m_LocalPosition: {x: 9.64, y: -9.64, z: -0.04758604}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPrefab: {fileID: 7253831100208355331, guid: 263a9899f189a6b4d93abfbf675974ea, type: 3}
-  numberOfPlayers: 50
+  numberOfPlayers: 100
   spawnAreaMin: {x: -9, y: -5}
   spawnAreaMax: {x: 9, y: 5}
 --- !u!4 &209601863
@@ -263,6 +263,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -344,6 +345,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f171187f102ca45a172e50d219572a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followIntensity: 0.1
+  zoomSpeed: 10
+  minZoom: 5
+  maxZoom: 20
+  panSpeed: 20
+  returnSpeed: 5
+  zOffset: -10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

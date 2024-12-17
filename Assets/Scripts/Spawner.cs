@@ -9,8 +9,8 @@ public class PlayerSpawner : MonoBehaviour
     public int numberOfPlayers = 5;
 
     // Define the spawn area (X: -9 to 9, Y: -5 to 5)
-    public Vector2 spawnAreaMin = new Vector2(-9, -5);
-    public Vector2 spawnAreaMax = new Vector2(9, 5);
+    public Vector2 spawnAreaMin = new Vector2(-12, -12);
+    public Vector2 spawnAreaMax = new Vector2(12, 12);
 
     void Start()
     {
